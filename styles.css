@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111729;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+}
+
+#container {
+    width: 34rem;
+    min-height: 13rem;
+    background: #20293A;
+    background-image: url('imgs/bg-image-random-quote.svg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    font-size: 1rem;
+}
+
+.quote-info {
+    width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .6rem;
+}
+
+.info {
+    font-size: 0.625rem;
+    color: #6466E9;
+    padding: .2rem .9rem;
+    border: 1px solid #6466E9;
+    border-radius: 20px;
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: #4A5567;
+    margin: 1.3rem 0 .5rem 0;
+}
+
+/* botton styles */
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #20293A;
+    border-radius: 13px;
+    margin-top: 1rem;
+    /* padding: 0 3rem; */
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem .8rem;
+}
+
+.btn img {
+    width: 1.6rem;
+}
+
+.copy {
+    border-left: 2px solid #20293A;
+}
