@@ -1,86 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #111729;
-    font-size: 16px;
-    font-family: 'Outfit', sans-serif;
-    color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111729;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  color: #fff;
 }
 
 #container {
-    width: 34rem;
-    min-height: 13rem;
-    background: #20293A;
-    background-image: url('imgs/bg-image-random-quote.svg');
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 34rem;
+  min-height: 13rem;
+  background: #20293a;
+  background-image: url("imgs/bg-image-random-quote.svg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .author {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .quote-info {
-    width: 48%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: .6rem;
+  width: 48%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.6rem;
 }
 
 .info {
-    font-size: 0.625rem;
-    color: #6466E9;
-    padding: .2rem .9rem;
-    border: 1px solid #6466E9;
-    border-radius: 20px;
+  font-size: 0.625rem;
+  color: #6466e9;
+  padding: 0.2rem 0.9rem;
+  border: 1px solid #6466e9;
+  border-radius: 20px;
 }
 
 .quote {
-    font-size: 1.5rem;
-    color: #4A5567;
-    margin: 1.3rem 0 .5rem 0;
+  font-size: 1.5rem;
+  color: #4a5567;
+  margin: 1.3rem 0 0.5rem 0;
 }
 
 /* botton styles */
 #buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #20293A;
-    border-radius: 13px;
-    margin-top: 1rem;
-    /* padding: 0 3rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #20293a;
+  border-radius: 13px;
+  margin-top: 1rem;
+  /* padding: 0 3rem; */
 }
 
 .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .4rem .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.8rem;
 }
 
 .btn img {
-    width: 1.6rem;
+  width: 1.6rem;
 }
 
 .copy {
-    border-left: 2px solid #20293A;
+  border-left: 2px solid #20293a;
+}
+
+.fade {
+  animation: 1s linear 1 fade;
+}
+
+@keyframes fade {
+  10% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.8;
+  }
 }
